@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --color-black: #000;
+  --color-darkgreen: #256b17;
+  --color-dimgray-100: #625131;
+  --color-dimgray-200: #5b4747;
+  --color-gainsboro: #d9d9d9;
+  --color-lightgreen: #64c55f;
+  --color-seagreen-100: #639e69;
+  --color-seagreen-200: #3c7743;
+  --color-white: #fff;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-3: 3px;
+  --gap-4: 4px;
+  --gap-10: 10px;
+  --gap-11: 11px;
+  --gap-16: 16px;
+  --gap-19: 19px;
+  --gap-20: 20px;
+  --gap-21: 21px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-01: 0;
+  --padding-1: 1px;
+  --padding-2: 2px;
+  --padding-3: 3px;
+  --padding-4: 4px;
+  --padding-5: 5px;
+  --padding-6: 6px;
+  --padding-7: 7px;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-11: 11px;
+  --padding-12: 12px;
+  --padding-13: 13px;
+  --padding-14: 14px;
+  --padding-15: 15px;
+  --padding-16: 16px;
+  --padding-18: 18px;
+  --padding-20: 20px;
+  --padding-22: 22px;
+  --padding-30: 30px;
+
+  /* BorderRadius */
+  --br-10: 10px;
+  --br-20: 20px;
+
+  /* Font */
+  --font-agdasima: Agdasima;
+  --font-big-shoulders-stencil-display: Big+Shoulders+Stencil+Display;
+  --font-caesar-dressing: Caesar+Dressing;
+  --font-inherit: inherit;
+
+  /* FontSize */
+  --fs-10: 10px;
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-19: 19px;
+  --fs-24: 24px;
+  --fs-36: 36px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+
+  /* Borders */
+  --border-1: 1px solid var(--color-black);
+
+  /* Shadows */
+  --text-shadow-1:
+    1px 0 0 var(--color-black), 0 1px 0 var(--color-black),
+    -1px 0 0 var(--color-black), 0 -1px 0 var(--color-black);
+  --text-shadow-2:
+    1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2),
+    -1px 0 0 rgba(0, 0, 0, 0.2), 0 -1px 0 rgba(0, 0, 0, 0.2);
+  --text-shadow-3:
+    1px 0 0 var(--color-seagreen-200), 0 1px 0 var(--color-seagreen-200),
+    -1px 0 0 var(--color-seagreen-200), 0 -1px 0 var(--color-seagreen-200);
+  --text-shadow-4:
+    1px 0 0 #aaa9a9, 0 1px 0 #aaa9a9, -1px 0 0 #aaa9a9, 0 -1px 0 #aaa9a9;
+  --text-shadow-5:
+    5px 0 0 var(--color-black), 0 5px 0 var(--color-black),
+    -5px 0 0 var(--color-black), 0 -5px 0 var(--color-black);
+
+  /* WidthHeights */
+  --height-18: 18px;
+  --height-21: 21px;
+  --height-22: 22px;
+  --height-27: 27px;
+  --height-30: 30px;
+  --height-31: 31px;
+  --height-44: 44px;
+  --height-77: 77px;
+  --height-86: 86px;
+  --height-87: 87px;
+  --height-17_9: 17.9px;
+  --min-w-36: 36px;
+  --width-22: 22px;
+  --width-32: 32px;
+  --width-36: 36px;
+  --width-51: 51px;
+  --width-90: 90px;
+  --width-117: 117px;
+  --width-119: 119px;
+  --width-185: 185px;
+  --width-622: 622px;
+  --width-17_9: 17.9px;
+  --width-38_5: 38.5px;
+
+  /* LineHeights */
+  --lh-normal: normal;
+
+  /* LetterSpacings */
+  --ls-normal: normal;
+
+  --left-0: 0px;
+  --left-11: 11px;
+  --left-31: 31px;
+  --left-34: 34px;
+  --left-293: 293px;
+  --left-100_4: 100.4px;
+  --left-67_2: 67.2px;
+  --text-stroke-1: 1px rgba(0, 0, 0, 0.2);
+  --top-0: 0px;
+  --top-2: 2px;
+  --top-5: 5px;
+  --top-6: 6px;
+  --top-10: 10px;
+  --top-11: 11px;
+}

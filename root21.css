@@ -1,0 +1,15 @@
+.hero { min-height: 560px; }
+.hero-bg { filter: brightness(0.55); }
+.detail-content {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  text-align: center; z-index: 2; width: 85%; padding: 0 10px;
+}
+.activity-title {
+  margin: 0 0 20px; font-family: 'Caesar+Dressing', cursive; font-size: 56px; font-weight: 400;
+  color: #fff; text-shadow: 3px 0 0 #000, 0 3px 0 #000, -3px 0 0 #000, 0 -3px 0 #000;
+}
+.activity-desc {
+  margin: 0; font-family: 'Caesar+Dressing', cursive; font-size: 15px; color: #fff;
+  line-height: 1.6; text-align: center;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
